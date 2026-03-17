@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Kafka-json-producer
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
+app:
+  kafka:
+    topic: my-test-topic-3
+    partitions: 3
+    replication-factor: 1
+    retention-ms: 604800000   # 7 days in milliseconds
+    max-burst-size: 300000
