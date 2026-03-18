@@ -2,7 +2,6 @@ package com.example.kafkajsonproducer.Service;
 
 import com.example.kafkajsonproducer.config.KafkaProperties;
 import com.example.kafkajsonproducer.dto.Customer;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;

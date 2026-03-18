@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>Kafka-json-producer</artifactId>
+    <artifactId>KafkaJsonProducer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Kafka-json-producer</name>
-    <description>Kafka-json-producer</description>
+    <name>KafkaJsonProducer</name>
+    <description>KafkaJsonProducer</description>
     <url/>
     <licenses>
         <license/>

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Kafka-json-producer
+    name: KafkaJsonProducer
   kafka:
     bootstrap-servers: localhost:9092
     producer:
